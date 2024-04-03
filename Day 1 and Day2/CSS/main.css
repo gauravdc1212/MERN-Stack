@@ -1,0 +1,22 @@
+h2{
+    color: green;
+}
+#heading{
+    color: red;
+    text-align: center;
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    text-decoration: underline overline;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: aqua;
+
+}
+#para1{
+    margin: 20px;
+    text-align: justify;
+}
