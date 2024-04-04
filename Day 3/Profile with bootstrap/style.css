@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+.box{
+    margin-top: 8rem;
+}
+/* .font{
+    font-size: 4rem;
+} */
+.xyz:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
