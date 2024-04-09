@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS First Page</title>
+</head>
+<body>
+    <p id="info"></p>
+    <button onclick="openURL();" name="openurl">OPEN URL</button>
+    <button id="alert" name="alert">OPEN Alert</button>
+    <button id="msg" name="message">Open Message</button>
+
+
+    <script>
+        function openURL(event){
+            /*window.open("https://www.google.com");*/
+            /*document.location.url="https://www.google.com"*/
+            /*history.forward();*/
+            document.getElementById("info").innerHTML=event.target.name;
+
+           /* info.innerHTML="<h1>HELLO</h1>"*/
+            
+        }
+        const alertButton = document.querySelector("#alert");
+        alertButton.onclick=(event)=>{
+        alert("Welcome to JS " + event.target.name)
+        console.log(event);
+        }
+        const msgbutton = document.getElementById("msg");
+        msgbutton.addEventListener("click",(event)=>{
+            alert("JAI SHREE RAM" + event.target.name);
+        })
+    </script>
+</body>
+</html>
